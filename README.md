@@ -49,9 +49,21 @@
       - Create a new repository on GitHub
       - git remote add origin https://github.com/haleemaIshtiaq/First-workshop  is used for connecting local repository to gitHub
       - `git remote -v` used to verify remote connection
-      - ` git push -u origin master ` is used to upload local commit to GitHub
+      - `git push -u origin master ` is used to upload local commit to GitHub
 
+3-Track changes:
 
+      - Create index file by using echo This is my First Git workshop> index.html
+      - git add index.html (To move to staging area)
+      - git commit -m "Add index file" (Made another commit)
+      - git push (Push the commit to GitHub)
+    Another file in notepad is created , added ,commited and push to GitHub in same manner.  
+
+Modify the existing notes file: `echo I am learning Git and GitHub>> notes.txt`
+Check the changes `git status` `git diff`
+Stage and commit the modified file.`git add notes.txt`  `git commit -m "Update workshop notes"`
+
+`git push` use to send commit changes to GitHub.
 
 
 
