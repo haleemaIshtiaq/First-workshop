@@ -65,5 +65,11 @@ Stage and commit the modified file.`git add notes.txt`  `git commit -m "Update w
 
 `git push` use to send commit changes to GitHub.
 
+4- Ignoring Files:
+    
+- Create a secret file : `echo This is a secret file.> secret.txt`
+- Create .gitignore file: `echo secret.txt> .gitignore`
+- Stage and commit .gitignore file: ` git add .gitignore ` `git commit -m "Add gitignore to exclude sensitive files"`
+
 
 
