@@ -73,3 +73,16 @@ Stage and commit the modified file.`git add notes.txt`  `git commit -m "Update w
 
 
 
+## Task 2:Clone, Rename, Republish
+  - Clone the teacher repository `git clone https://github.com/Lexicon-Smaland/Hello-World.git`
+  - Enter the cloned folder `cd Hello-World`
+  - Check the remote connection `git remote -v`..(Connected to teacher repository)
+  - Create my own Hello-World repository on Github.
+  - Connect to my repository ` git remote set-url origin https://github.com/haleemaIshtiaq/Hello-World `
+  - Again check remote connection `git remote -v`..(Connected to my repository)
+  - Check the current branch `git branch --show-current` (its main)
+  - Modify and save README.md. Stage and commit changes.`git add README.md``git commit -m "Update README for Git workshop"`
+  - Check commit history `git log --oneline`
+  - Push to my GitHub repository `git push -u origin main`
+
+  **Result:** Successfully cloned , modified and published
