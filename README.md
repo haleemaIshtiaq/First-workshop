@@ -84,3 +84,8 @@
   - Push to my GitHub repository `git push -u origin main`
 
   **Result:** Successfully cloned , modified and published
+
+
+
+  ## Task 3:
+  - Created a new branch named test-branch to practice git branching.
