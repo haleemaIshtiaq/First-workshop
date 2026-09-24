@@ -1,1 +1,2 @@
 WORKSHOP NOTES 
+I am learning Git and GitHub
