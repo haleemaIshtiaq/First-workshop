@@ -88,4 +88,31 @@
 
 
   ## Task 3:
-  - Created a new branch named test-branch to practice git branching.
+  - Branch
+        - Created a new branch named test-branch to practice git branching.`git branch test-branch`
+         - Switched to new branch `git switch test-branch`
+         
+  -  Revert:
+        - Created and committed a practice file revert-demo.txt.
+        - Check commit history `git log --oneline`
+
+            **18448c5 Add revert demo file**
+               
+        - Undo the commit: `git revert HEAD`
+        - The change was undone but th commit history was kept.
+        -  Check commit history again: `git log --oneline`
+        
+            **8bc255b (HEAD -> master) Revert "Add revert demo file"**
+            
+            **18448c5 Add revert demo file**
+
+  - Reset:
+      - Created and committed a practice file reset.txt.
+      - Used `git reset --soft HEAD ~1` .The commit was removed but the changes remained staged.
+      - Used `git reset --hard HEAD ~1` .The commit and its changes were removed.
+  
+  `revert`keeps the history by creating a new commit while `reset` moves the branch back to an earlier commit.      
+
+  - Tagging
+      - Created a tag to mark a version of the project: `git tag v1.0`
+      - Push the tag to GitHub: `git push origin v1.0`
